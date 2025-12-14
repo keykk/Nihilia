@@ -131,10 +131,12 @@ namespace Supercyan.AnimalPeopleSample
                 case 2:
                     m_player.Animator.SetTrigger(m_combo2Trigger);
                     Debug.Log("Combo 2 triggered");
+                    StartHitboxTiming();
                     break;
                 case 3:
                     m_player.Animator.SetTrigger(m_combo3Trigger);
                     Debug.Log("Combo 3 triggered");
+                    StartHitboxTiming();
                     break;
             }
 

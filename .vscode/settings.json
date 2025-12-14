@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Nihilia.sln"
+    "dotnet.defaultSolution": "Nihilia.slnx"
 }
